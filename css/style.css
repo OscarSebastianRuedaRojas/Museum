@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 header{
     display: flex;
     flex-direction: row;
@@ -39,10 +43,10 @@ header{
     color: #ececec;
 }
 
-.slider-box{
+.slider-box {
     width: 100%;
     height: 80vh;
-    margin: 0px auto 0;
+    margin: 0 auto;
     overflow: hidden;
 }
 
@@ -59,18 +63,23 @@ header{
     position: relative;
 }
 
-.text{
+.text {
     position: absolute;
     text-align: center;
-    padding: 0 250px;
-    top: 250px;
-    width: 100%;
-    color: #FFFFFF;   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 0 1rem;
 }
 
-.text h2{
-    font-size: 45px;
-    margin-bottom: 35px;
+.text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text p {
+    font-size: 1rem;
 }
 
 .slider-box img{
@@ -228,6 +237,36 @@ footer ul li{
     
 }
 
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  /* Botón "Plan your Visit" */
+  .plan-visit {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+  }
+  
+  /* Botón "View Gallery" */
+  .view-gallery {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  /* Hover effects */
+  .btn:hover {
+    opacity: 0.8;
+  }
+
 @keyframes slide{   
     0% { margin-left: 0;}
     20% { margin-left: 0;}
@@ -240,6 +279,34 @@ footer ul li{
 
     75% { margin-left: -300%;}
     100% { margin-left: -300%;}
+}
+
+@media screen and (max-width: 768px) {
+    .slider-box {
+        height: 50vh;
+    }
+    
+    .text h2 {
+        font-size: 1.5rem;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slider-box {
+        height: 40vh;
+    }
+    
+    .text h2 {
+        font-size: 1.2rem;
+    }
+
+    .text p {
+        font-size: 0.8rem;
+    }
 }
 
 @media screen and (max-width: 550px){
@@ -267,6 +334,7 @@ footer ul li{
     .nav.visible{
         opacity: 1;
         visibility: visible;
+        z-index: 10;
     }
 
     .nav-list{
