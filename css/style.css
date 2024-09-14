@@ -77,11 +77,23 @@ header{
     width: 100%;
 }
 
-.card{
-    position: relative;
-    width: 350px;
-    height: 400px;
+.galery{
+    width: 99%;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    column-gap: 1rem;
+    row-gap: 1rem;
+    background-color: white;
+}
 
+.card {
+    position: relative;
+    width: 100%; /* Asegura que la tarjeta ocupe el 100% del ancho de su celda */
+    height: 400px; /* Permite que la altura se ajuste automáticamente */
+    border: 1px solid #ddd; /* Opcional: Añade un borde para visualizar mejor */
+    border-radius: 10px; /* Opcional: Añade bordes redondeados */
+    overflow: hidden; /* Asegura que el contenido no se desborde */
 }
 
 .card .face{
@@ -160,16 +172,63 @@ header{
     transform: perspective(600px) rotateY(360deg);
 }
 
-.galery{
-    margin: 1rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    column-gap: 1rem;
-    row-gap: 1rem;
-    background-color: white;
+.information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
 }
 
-@keyframes slide{
+.information .title{
+    translate: 2rem;
+}
+
+.information .container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.card_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.card_info i{
+    font-size: 2rem;
+}
+
+.card_info p{
+    font-size: 1.3rem;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #1c1c1c;
+    color: #ececec;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+footer ul li{
+    list-style: none;
+    
+}
+
+@keyframes slide{   
     0% { margin-left: 0;}
     20% { margin-left: 0;}
 
@@ -219,5 +278,16 @@ header{
 
     .nav-list li a{
         color: #ececec;
+    }
+    .information .container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .information .title{
+        translate: 0;
+    }
+    footer{
+        flex-direction: column;
+        gap: 1rem;
     }
 }

@@ -1,77 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Museo</title>
-    <script src='js/app.js' type='module' defer></script> 
-    <link rel='stylesheet' href='css/style.css'>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
+    <script src="js/app.js" type="module" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <div class="name">
-            <h1>CampusLands Museum Of Art</h1>
-        </div>
-        <button class="abrir-menu" id="abrir"><i class='bx bx-menu-alt-right'></i></button>
-        <nav class="nav" id="nav">
-            <button class="cerrar-menu" id="cerrar"><i class='bx bx-x'></i></button>
-            <ul class="nav-list">
-                <li><a href="">Exhibitions</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Events</a></li>
-                <li><a href="">Visit</a></li>
-            </ul>
-        </nav>
+      <div class="name">
+        <h1>CampusLands Museum Of Art</h1>
+      </div>
+      <button class="abrir-menu" id="abrir">
+        <i class="bx bx-menu-alt-right"></i>
+      </button>
+      <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar"><i class="bx bx-x"></i></button>
+        <ul class="nav-list">
+          <li><a href="">Exhibitions</a></li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Visit</a></li>
+        </ul>
+      </nav>
     </header>
     <section class="slider-box">
-        <ul>
-            <li>
-                <img src="storage/img/Ej1.jpg" alt="Imagen de sjsjjsjs">
-                <div class="text">
-                    <h2>Imagen 1</h2>
-                    <p>
-                        lorem
-                    </p>
-                </div>
-            </li>
-            <li>
-                <img src="storage/img/Ej2.jpg" alt="Imagen de sjsjjsjs">
-                <div class="text">
-                    <h2>Imagen 2</h2>
-                    <p>
-                        lorem
-                    </p>
-                </div>
-            </li>
-            <li>
-                <img src="storage/img/Ej3.jpg" alt="Imagen de sjsjjsjs">
-                <div class="text">
-                    <h2>Imagen 3</h2>
-                    <p>
-                        lorem
-                    </p>
-                </div>
-            </li>
-            <li>
-                <img src="storage/img/Ej4.jpg" alt="Imagen de sjsjjsjs">
-                <div class="text">
-                    <h2>Imagen 4</h2>
-                    <p>
-                        lorem
-                    </p>
-                </div>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <img src="storage/img/Ej1.jpg" alt="Imagen de sjsjjsjs" />
+          <div class="text">
+            <h2>Imagen 1</h2>
+            <p>lorem</p>
+          </div>
+        </li>
+        <li>
+          <img src="storage/img/Ej2.jpg" alt="Imagen de sjsjjsjs" />
+          <div class="text">
+            <h2>Imagen 2</h2>
+            <p>lorem</p>
+          </div>
+        </li>
+        <li>
+          <img src="storage/img/Ej3.jpg" alt="Imagen de sjsjjsjs" />
+          <div class="text">
+            <h2>Imagen 3</h2>
+            <p>lorem</p>
+          </div>
+        </li>
+        <li>
+          <img src="storage/img/Ej4.jpg" alt="Imagen de sjsjjsjs" />
+          <div class="text">
+            <h2>Imagen 4</h2>
+            <p>lorem</p>
+          </div>
+        </li>
+      </ul>
     </section>
-    <section class="galery" id="galery">
-        
-    </section>
+    <section class="galery" id="galery"></section>
     <section class="information">
-
+      <h2 class="title">Plan Your Visit</h2>
+      <div class="container">
+        <div class="card_info">
+            <i class='bx bx-time'></i>
+          <h2>Opening Hours</h2>
+          <p>
+            Tuesday - Sunday: 10am - 5pm
+          </p>
+          <p>Closed on Mondays</p>
+        </div>
+        <div class="card_info">
+            <i class='bx bxs-map'></i>
+          <h2>Location</h2>
+          <p>
+            123 Art Street
+          </p>
+          <p>Cityville, State 12345</p>
+        </div>
+        <div class="card_info">
+            <i class='bx bx-image-alt'></i>
+          <h2>Current Exhibition</h2>
+          <p>
+            "Modern Masters"
+          </p>
+          <p>
+            Until September 30, 2023
+          </p>
+        </div>
+      </div>
     </section>
     <footer>
-
+        <p>
+            @2024 CampusLand. All rights reserved.
+        </p>
+        <ul>
+            <li>Terms Of Service</li>
+            <li>Privacy</li>
+        </ul>
     </footer>
-</body>
+  </body>
 </html>
