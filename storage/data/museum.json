@@ -1,0 +1,103 @@
+[
+    {
+      "about": "The Mona Lisa is a portrait painting by Italian artist Leonardo da Vinci, considered an archetypal masterpiece of the Italian Renaissance. It is located in the Louvre Museum in Paris.",
+      "picture": "https://www.louvre.fr/sites/default/files/medias/medias_images/images/louvre-la-joconde.jpg",
+      "name": "Mona Lisa"
+    },
+    {
+      "about": "The Starry Night is one of Vincent van Gogh's most famous paintings, depicting a dreamy interpretation of the artist's asylum room's sweeping view of Saint-Rémy-de-Provence at night.",
+      "picture": "https://www.moma.org/media/W1siZiIsIjMwNzQ5NCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDEyMDAweDYwMDBcdTAwM2UiXV0.jpg?sha=0420284bf94e34f1",
+      "name": "The Starry Night"
+    },
+    {
+      "about": "Girl with a Pearl Earring is an oil painting by Dutch Golden Age painter Johannes Vermeer. It is sometimes referred to as the 'Mona Lisa of the North' and is housed in the Mauritshuis museum in The Hague.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Meisje_met_de_parel.jpg",
+      "name": "Girl with a Pearl Earring"
+    },
+    {
+      "about": "The Persistence of Memory is a painting by Salvador Dalí, known for its melting clocks and surreal dreamlike landscape. The painting is housed in the Museum of Modern Art (MoMA) in New York City.",
+      "picture": "https://www.moma.org/media/W1siZiIsIjMyNTgzOCJdLFsicCIsImNvbnZlcnQiLCItcmVzaXplIDI0MDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=6f0f905f1639a08e",
+      "name": "The Persistence of Memory"
+    },
+    {
+      "about": "The Night Watch is a famous painting by Rembrandt, portraying a group of city guardsmen. This masterpiece is housed in the Rijksmuseum in Amsterdam.",
+      "picture": "https://www.rijksmuseum.nl/en/collection/SK-C-5",
+      "name": "The Night Watch"
+    },
+    {
+      "about": "Las Meninas is a painting by Diego Velázquez, featuring an intricate scene of the Spanish court. It is housed in the Museo del Prado in Madrid.",
+      "picture": "https://www.museodelprado.es/uploads/tx_gbobras/meninas.jpg",
+      "name": "Las Meninas"
+    },
+    {
+      "about": "The Birth of Venus is a painting by Sandro Botticelli, depicting the goddess Venus emerging from the sea. It is housed in the Uffizi Gallery in Florence.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/800px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+      "name": "The Birth of Venus"
+    },
+    {
+      "about": "Guernica is a large mural painting by Pablo Picasso, created as a reaction to the bombing of Guernica during the Spanish Civil War. It is housed in the Museo Reina Sofía in Madrid.",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg",
+      "name": "Guernica"
+    },
+    {
+      "about": "The Scream is a famous painting by Edvard Munch, symbolizing existential anguish. Several versions exist, with one housed in the National Gallery in Oslo, Norway.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f4/The_Scream.jpg",
+      "name": "The Scream"
+    },
+    {
+      "about": "American Gothic is a painting by Grant Wood, depicting a farmer and his daughter standing in front of a house. It is housed in the Art Institute of Chicago.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Grant_DeVolson_Wood_-_American_Gothic.jpg",
+      "name": "American Gothic"
+    },
+    {
+      "about": "The Arnolfini Portrait is a painting by Jan van Eyck, known for its intricate details and use of light. It is housed in the National Gallery, London.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "name": "The Arnolfini Portrait"
+    },
+    {
+      "about": "The Hay Wain is a painting by John Constable, depicting a rural scene in England. It is housed in the National Gallery in London.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/7/78/John_Constable_The_Hay_Wain.jpg",
+      "name": "The Hay Wain"
+    },
+    {
+      "about": "Liberty Leading the People is a painting by Eugène Delacroix, symbolizing the July Revolution in France. It is housed in the Louvre Museum in Paris.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg",
+      "name": "Liberty Leading the People"
+    },
+    {
+      "about": "Whistler's Mother is a painting by James McNeill Whistler, formally titled Arrangement in Grey and Black No. 1. It is housed in the Musée d'Orsay in Paris.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/5/57/Whistlers_Mother_high_res.jpg",
+      "name": "Whistler's Mother"
+    },
+    {
+      "about": "The Kiss is a painting by Gustav Klimt, representing a couple embracing. It is housed in the Österreichische Galerie Belvedere in Vienna.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Gustav_Klimt_016.jpg/800px-Gustav_Klimt_016.jpg",
+      "name": "The Kiss"
+    },
+    {
+      "about": "Water Lilies is a series of approximately 250 oil paintings by Claude Monet, depicting his flower garden at his home in Giverny. Many of them are housed in the Musée de l'Orangerie in Paris.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Claude_Monet_-_Water_Lilies_-_Google_Art_Project.jpg",
+      "name": "Water Lilies"
+    },
+    {
+      "about": "The Garden of Earthly Delights is a triptych painting by Hieronymus Bosch, depicting a fantastical and surreal landscape. It is housed in the Museo del Prado in Madrid.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c9/El_jard%C3%ADn_de_las_Delicias%2C_de_El_Bosco.jpg",
+      "name": "The Garden of Earthly Delights"
+    },
+    {
+      "about": "Impression, Sunrise is a painting by Claude Monet that gave its name to the Impressionist movement. It is housed in the Musée Marmottan Monet in Paris.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/4/47/Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+      "name": "Impression, Sunrise"
+    },
+    {
+      "about": "Bal du moulin de la Galette is a painting by Pierre-Auguste Renoir, depicting a lively Parisian dance. It is housed in the Musée d'Orsay in Paris.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/1/15/Bal_du_moulin_de_la_Galette%2C_by_Pierre-Auguste_Renoir%2C_from_C2RMF_retouched.jpg",
+      "name": "Bal du moulin de la Galette"
+    },
+    {
+      "about": "The Raft of the Medusa is a painting by Théodore Géricault, portraying the aftermath of a contemporary shipwreck. It is housed in the Louvre Museum in Paris.",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/66/Le_Radeau_de_la_M%C3%A9duse.jpg",
+      "name": "The Raft of the Medusa"
+    }
+  ]
+  
